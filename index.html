@@ -1,4 +1,70 @@
 <!DOCTYPE html>
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-    alt="Google logo">
-<input type="text" id="search bar">
+<html>
+<head>
+<title>Google</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+            font-size: small;
+            display: flex;
+            align-items: center;
+            border: dotted 5px red;
+        }
+        li{
+            flex: 0 0 auto;
+            width: 60px;
+            border: 3px black;
+        }
+        li:nth-child(2){
+            margin-right: auto;
+        }
+        div{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .center-logo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px
+        }
+        #sign-in{
+            color: white;
+            background-color: rgb(89, 89, 243);
+            border-radius: 5px;
+            width: 75px;
+            height: auto;
+        }
+        #search-bar{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            height: 30px;
+            border: 3px grey;
+            border-radius: 20px;
+            box-shadow: 0px 0px 5px 2px #4484f1;
+        }
+    </style>
+</head>
+<body>
+    <ul role="navigation">
+        <li>About</li>
+        <li>Store</li>
+        <li>Gmail</li>
+        <li>Images</li>
+        <li><img src="https://www.shareicon.net/data/32x32/2015/09/12/99848_apps_512x512.png" alt="App Drawer Icon"></li>
+        <li><input type="submit" id="sign-in" value="Sign In"></li>
+    </ul>
+<div>
+    <img id="logo" src="https://www.google.com/logos/doodles/2020/thank-you-farmworkers-and-farmers-6753651837108757.2-law.gif"
+    alt="Google logo" class="center-logo">
+    <input type="text" id="search-bar">
+</div>
+</body>
+</html>
