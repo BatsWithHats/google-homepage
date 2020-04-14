@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Flex is a DEMON</title>
+<title>Google Simulacrum</title>
     <style>
         body{
             font-family: arial;
         }
         ul{
             list-style-type: none;
-            border: 1px dotted red;
             display:flex;
             align-items: center;
             justify-content: initial;
@@ -16,7 +15,6 @@
             padding:0;
         }
         li{
-            border: 1px solid black;
             margin:0 2px 0 0;
             padding:5px;
             margin:5px;
@@ -59,7 +57,12 @@
             height: 40px;
             border-radius: 5px;
             border:none;
-            margin: 0 5px 0 5px;
+            margin: 10px 5px 0 5px;
+        }
+        #button-movement{
+            margin:auto;
+            width: 20%;
+            text-align: center;
         }
         #footer{
             color: rgb(100, 100, 100);
@@ -85,7 +88,7 @@
 <div>
     <p><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" alt="google logo"></p>
     <p><input type="text" id="search-bar"></p>
-    <p><input type="submit" value="Google Search" id="central-buttons"><input type="submit" value="I'm Feeling Lucky" id="central-buttons"></p>
+    <p id="button-movement"><input type="submit" value="Google Search" id="central-buttons"><input type="submit" value="I'm Feeling Lucky" id="central-buttons"></p>
 </div>
 <ul id="footer">
     <li>Advertising</li>
